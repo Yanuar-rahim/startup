@@ -44,8 +44,9 @@
                 <tr><td>101004</td><td>Fia Topa</td><td>Teknik Informatika</td></tr>
                 <tr><td>101005</td><td>Nina Tanggul</td><td>Teknik Informatika</td></tr>
                 <tr><td>101006</td><td>Palatiga Pride</td><td>Teknik Informatika</td></tr>
-                <tr><td>101007</td><td>Yanuar Galau</td><td>Teknik Informatika</td></tr>
+                <tr><td>101007</td><td>Rahman Raha</td><td>Teknik Informatika</td></tr>
                 <tr><td>101008</td><td>Lamangga Hujan Terus</td><td>Teknik Informatika</td></tr>
+                <tr><td>101009</td><td>Fadhil Sambali</td><td>Teknik Informatika</td></tr>
             </tbody>
         </table>
     </main>
