@@ -38,7 +38,7 @@
                 </tr>
             </thead>
             <tbody id="studentTableBody">
-                <tr><td>101001</td><td>Alya Palatiga</td><td>Teknik Informatika</td></tr>
+                <tr><td>101001</td><td>Alya Ukhty</td><td>Teknik Informatika</td></tr>
                 <tr><td>101002</td><td>Meysi Imut</td><td>Teknik Informatika</td></tr>
                 <tr><td>101003</td><td>Cinta Waromsio</td><td>Teknik Informatika</td></tr>
                 <tr><td>101004</td><td>Fia Topa</td><td>Teknik Informatika</td></tr>
