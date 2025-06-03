@@ -29,7 +29,7 @@
             </div>
             <article>
                 <h2>Apa itu nely </h2>
-                <p>nely adalah seorang manusia yang lahir dari zaman purba dan di takdirkan untuk tinggal di patkam yang sering macet !!</p>
+                <p>Apasihhhh</p>
             </article>
         </div>
         <!-- footer -->
