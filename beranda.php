@@ -17,6 +17,7 @@
                     <li><a href="tentang.php">Tentang</a></li>
                     <li><a href="kontak.php">Kontak</a></li>
                     <li><a href="logout.php">Log Out</a></li>
+                    
                 </ul>
             </nav>
         </header>
