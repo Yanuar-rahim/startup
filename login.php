@@ -1,11 +1,3 @@
-<?php
-session_start();
-if (isset($_SESSION['username'])) {
-    header("Location: beranda.php");
-    exit();
-}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +5,7 @@ if (isset($_SESSION['username'])) {
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <form action="proses_login.php" method="post">
+    <form action="beranda.php" method="post">
         <label>Username:</label><br>
         <input type="text" name="username" required><br><br>
 
