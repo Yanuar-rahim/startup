@@ -28,8 +28,8 @@
                 <p>Ini adalah halaman beranda website startup.</p>
             </div>
             <article>
-                <h2>Apa itu Alya</h2>
-                <p>Alya adalah manusia yang lahir di palatiga. Sejak kecil dia sering bermain di palatiga.</p>
+                <h2>Apa itu nely </h2>
+                <p>nely adalah seorang manusia yang lahir dari zaman purba dan di takdirkan untuk tinggal di patkam yang sering macet !!</p>
             </article>
         </div>
         <!-- footer -->
