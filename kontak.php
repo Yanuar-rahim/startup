@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kontak.css">
 </head>
 <body>
     <div class="container">
@@ -30,14 +31,14 @@
             
             <article>
                 <form action="proses_kontak.php" method="post">
-                    <label for="nama">Nama:</label><br>
-                    <input type="text" id="nama" name="nama" required><br><br>
+                    <label class="nama" for="nama">Nama:</label><br>
+                    <input class="nama" type="text" id="nama" name="nama" required><br><br>
                     
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
+                    <label class="email" for="email">Email:</label><br>
+                    <input class="email" type="email" id="email" name="email" required><br><br>
                     
-                    <label for="pesan">Pesan:</label><br>
-                    <textarea id="pesan" name="pesan" rows="5" required></textarea><br><br>
+                    <label class="pesan" for="pesan">Pesan:</label><br>
+                    <textarea class="pesan" id="pesan" name="pesan" rows="5" required></textarea><br><br>
                     
                     <button type="submit">Kirim</button>
                 </form>

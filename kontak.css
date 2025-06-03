@@ -1,0 +1,55 @@
+/* kontak.css */
+
+/* Form Container */
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Label */
+form label {
+    font-weight: bold;
+    color: #d63384;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input dan Textarea */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ffc0cb; /* pink muda */
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #fff0f5;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #ff69b4; /* hot pink */
+}
+
+/* Tombol Submit */
+form button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #d63384;
+}
