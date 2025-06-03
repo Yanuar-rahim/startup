@@ -12,7 +12,7 @@
             <nav>
                 <ul>
                     <li><a href="beranda.php">Beranda</a></li>
-                    <li><a href="daftar-mahasiswa.php">Daftar Mahasiswa</a></li>
+                    <li><a href="mahasiswa.php">Daftar Mahasiswa</a></li>
                     <li><a href="tentang.php">Tentang</a></li>
                     <li><a href="kontak.php">Kontak</a></li>
                     <li><a href="logout.php">Log Out</a></li>
