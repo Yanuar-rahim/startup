@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -22,11 +23,11 @@
         <!-- konten -->
         <div class="konten">
             <div class="hero">
-                <h1>Selamat Datang di Website Startup</h1>
+                <h1>Selamat Datang di Website Cinta</h1>
                 <p>Ini adalah halaman beranda website startup.</p>
             </div>
             <article>
-                <h2>Apa itu Startup</h2>
+                <h2>Apa itu Alya</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nostrum veniam. Blanditiis beatae sunt minima tempora laborum vel dignissimos debitis consequuntur similique accusantium facere ad, possimus voluptatum natus ullam impedit?</p>
             </article>
         </div>
