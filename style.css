@@ -61,8 +61,8 @@ nav ul li a:hover {
 
 /* Hero section */
 .hero {
-    background-image: url(img/Nely2jpg.jpg);
-    height: 600px;
+    background-image: url(img/nely3.jpg);
+    height: 100%;
     text-align: center;
     margin-bottom: 30px;
 }
