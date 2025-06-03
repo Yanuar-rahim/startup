@@ -29,7 +29,7 @@
             </div>
             <article>
                 <h2>Apa itu Alya</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nostrum veniam. Blanditiis beatae sunt minima tempora laborum vel dignissimos debitis consequuntur similique accusantium facere ad, possimus voluptatum natus ullam impedit?</p>
+                <p>Alya adalah manusia yang lahir di palatiga. Sejak kecil dia sering bermain di palatiga.</p>
             </article>
         </div>
         <!-- footer -->
