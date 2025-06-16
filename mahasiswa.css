@@ -1,9 +1,8 @@
 .card-container {
     display: flex;
-    flex-wrap: wrap;           /* Agar card pindah baris kalau layar sempit */
+    /* align-items: center; */
+    /* justify-content: center; */
     gap: 20px;
-    justify-content: center;   /* Atur posisi tengah */
-    align-items: stretch;      /* Biar tinggi sejajar */
 }
 
 .card {

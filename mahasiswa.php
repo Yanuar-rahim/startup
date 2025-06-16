@@ -11,8 +11,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Mahasiswa</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mahasiswa.css">
+    <!-- <link rel="stylesheet" href="mahasiswa.css"> -->
 </head>
+<style>
+    .card-container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: calc(33.33% - 20px);  /* 3 card per baris, sesuaikan kalau mau 4 atau 2 */
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+</style>
 <body>
     <div class="container">
         <!-- Header -->
@@ -31,8 +60,8 @@
         <!-- Konten -->
         <div class="konten">
             <h1>Daftar Mahasiswa</h1>
-            <?php while ($row = mysqli_fetch_array($query)) { ?>
             <div class="card-container">
+                <?php while ($row = mysqli_fetch_array($query)) { ?>
                 <div class="card">
                     <img src="../../img/<?= $row['foto']; ?>" alt="<?= $row['nama']; ?>">
                     <div class="card-text">
@@ -41,8 +70,8 @@
                         <p><?= $row['angkatan']; ?></p>
                     </div>
                 </div>
+                <?php } ?>
             </div>
-            <?php } ?>
         </div>
         <!-- Footer -->
         <footer>
