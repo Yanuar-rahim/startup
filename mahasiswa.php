@@ -1,7 +1,7 @@
 <?php
-    include "../koneksi.php";
+    include "koneksi.php";
 
-    $query = mysqli_query($koneksi, SELECT * FROM )
+    $query = mysqli_query($koneksi, "SELECT * FROM mahasiswaaa ORDER BY id DESC");
 
 ?>
 <!DOCTYPE html>
@@ -31,29 +31,19 @@
         <!-- Konten -->
         <div class="konten">
             <h1>Daftar Mahasiswa</h1>
+            <?php while ($row = mysqli_fetch_array($query)) { ?>
             <div class="card-container">
                 <div class="card">
-                    <img src="" alt="">
-                    <h3>Cinta Adelia Afitri</h3>
-                    <p>Teknik Informatika</p>
-                    <p>Semester 2</p>
+                    <img src="../../img/<?= $row['foto']; ?>" alt="<?= $row['nama']; ?>">
+                    <div class="card-text">
+                        <h3><?= $row['nama']; ?></h3>
+                        <p><?= $row['prodi']; ?></p>
+                        <p><?= $row['angkatan']; ?></p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="" alt="">
-                    <h3>Ahmad Rafi</h3>
-                    <p>Sistem Informasi</p>
-                    <p>Semester 4</p>
-                </div>
-                <div class="card">
-                    <img src="" alt="">
-                    <h3>Nely Anindita</h3>
-                    <p>Teknik Komputer</p>
-                    <p>Semester 3</p>
-                </div>
-                <!-- Tambahkan card lainnya sesuai kebutuhan -->
             </div>
+            <?php } ?>
         </div>
-
         <!-- Footer -->
         <footer>
             <p>&copy; 2025 Startup. All rights reserved.</p>

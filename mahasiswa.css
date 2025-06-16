@@ -1,52 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f7f7f7;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.konten {
-    margin-top: 20px;
-}
-
 .card-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;           /* Agar card pindah baris kalau layar sempit */
     gap: 20px;
+    justify-content: center;   /* Atur posisi tengah */
+    align-items: stretch;      /* Biar tinggi sejajar */
 }
 
 .card {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 20px;
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 20px);  /* 3 card per baris, sesuaikan kalau mau 4 atau 2 */
     box-sizing: border-box;
     transition: transform 0.2s ease;
+    overflow: hidden;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-.card h3 {
-    margin: 0 0 10px;
+.card-text {
+    padding: 20px;
 }
